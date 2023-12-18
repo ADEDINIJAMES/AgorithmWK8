@@ -21,9 +21,6 @@ public class DigPow {
             for(int i= 0; i<result.size();i++){
                 w+= (int) Math.pow(result.get(i), p);
                 p+=1;
-
-
-
             }
             System.out.println(w);
             int k = w/original;

@@ -2,6 +2,7 @@ package org.example;
 
 import java.math.BigInteger;
 
+
 public class NextPrime {
    // Function to get nextPrimeNumber
    public static long nextPrime(int n)
@@ -15,6 +16,7 @@ public class NextPrime {
     {
         int n = 14;
         System.out.println(nextPrime(n));
+        System.out.println(nextFibonacci(n));
 
     }
     static int nextFibonacci(int n)
